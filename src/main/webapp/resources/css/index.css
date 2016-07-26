@@ -1,22 +1,28 @@
-ul {
-	list-style: none;
+.qu-list-itme {
+	border-bottom: 1px solid #f3f3f3;
+	position: relative;
+	padding: 5px 0;
+	cursor: pointer;
+	-webkit-transition: background-color .4s ease-in;
+	-moz-transition: background-color .4s ease-in;
+	-o-transition: background-color .4s ease-in;
+	transition: background-color .4s ease-in;
+	overflow: hidden;
 }
 
-.coin-icon {
-	background-image: url("../images/icon.png");
+.qu-section {
+	position: relative;
 }
 
-.coin-icon {
-	background-position: -28px -374px;
+.qu-title {
+	white-space: nowrap;
+	margin: 10px 20px 10px 10px;
+	height: 16px;
 	display: inline;
 	float: left;
-	width: 13px;
-	height: 12px;
-	margin-top: 2px;
-	background-repeat: no-repeat;
 }
 
-.coin-count {
+.qu-title .coin-count {
 	display: inline;
 	float: left;
 	color: #e7412b;
@@ -25,11 +31,51 @@ ul {
 	height: 16px;
 }
 
-.title-link {
+.qu-title .title-link {
 	font-size: 14px;
 	line-height: 16px;
 	color: #3066b3;
 	display: inline;
 	float: left;
 	height: 16px;
+}
+
+.qu-tags {
+	white-space: nowrap;
+	display: inline;
+	float: left;
+	line-height: 16px;
+	margin: 10px 170px 10px 0;
+	padding-left: 10px;
+}
+
+.qu-tags .tag-item {
+	font-size: 12px;
+	color: #bbb;
+	display: inline;
+	float: left;
+	margin-right: 15px;
+}
+
+.qu-tags .ans-num {
+	width: 65px;
+	padding-right: 10px;
+	text-align: right;
+	border-right: 1px solid #e5e5e5;
+	line-height: 14px;
+	height: 14px;
+	display: inline;
+	float: left;
+	color: #bbb;
+}
+
+.qu-tags .qu-time {
+	width: 80px;
+	padding-left: 10px;
+	text-align: left;
+	line-height: 14px;
+	height: 14px;
+	display: inline;
+	float: left;
+	color: #bbb;
 }
