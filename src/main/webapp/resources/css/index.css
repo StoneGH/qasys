@@ -1,3 +1,7 @@
+.qu-list-ul {
+	padding: 0px;
+}
+
 .qu-list-itme {
 	border-bottom: 1px solid #f3f3f3;
 	position: relative;
