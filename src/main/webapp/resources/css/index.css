@@ -1,3 +1,11 @@
+body {
+	background: #f3f3f3;
+}
+
+.qu-lists {
+	background: #fff;
+}
+
 .qu-list-ul {
 	padding: 0px;
 }
@@ -20,10 +28,11 @@
 
 .qu-title {
 	white-space: nowrap;
-	margin: 10px 20px 10px 10px;
+	margin: 10px 0;
 	height: 16px;
 	display: inline;
 	float: left;
+	width: 100%;
 }
 
 .qu-title .coin-count {
@@ -42,6 +51,10 @@
 	display: inline;
 	float: left;
 	height: 16px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 99%;
 }
 
 .qu-tags {
@@ -50,7 +63,6 @@
 	float: left;
 	line-height: 16px;
 	margin: 10px 170px 10px 0;
-	padding-left: 10px;
 }
 
 .qu-tags .tag-item {
@@ -86,4 +98,99 @@
 
 .page-container {
 	text-align: center;
+}
+
+.personal-panel {
+	
+}
+
+.personal-panel .slogan-text {
+	font-size: 18px;
+	color: #2eb354;
+	padding: 10px 5px;
+}
+
+.personal-panel .img-circle {
+	border: 2px solid #2eb354;
+}
+
+.personal-panel .user-info {
+	padding: 7px 0 0;
+	text-align: center;
+	height: 24px;
+	font-size: 14px;
+	color: #353535;
+}
+
+.personal-panel .user-name {
+	vertical-align: middle;
+	padding-right: 10px;
+	text-align: right;
+	display: inline-block;
+}
+
+.personal-panel .devide-line {
+	vertical-align: middle;
+	display: inline-block;
+	width: 1px;
+	height: 12px;
+	background-color: #dadada;
+}
+
+.personal-panel .user-level {
+	vertical-align: middle;
+	text-align: left;
+	padding-left: 10px;
+	display: inline-block;
+}
+
+.personal-panel .help-people-count {
+	color: #8b8b8b;
+	text-align: center;
+	font-size: 14px;
+	height: 35px;
+	line-height: 35px;
+}
+
+.personal-panel .section {
+	height: 60px;
+	background-color: #65c559;
+	width: 100%;
+	text-align: center;
+}
+
+.personal-panel .section-left:HOVER,.personal-panel .section-right:HOVER
+	{
+	background: #2eb354;
+	text-decoration: none;
+}
+
+.personal-panel .section-left {
+	float: left;
+	width: 50%;
+	height: 100%;
+	border-right: 1px solid #ccc;
+}
+
+.personal-panel .section-right {
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+.personal-panel .item-num {
+	display: block;
+	font-size: 24px;
+	color: #fff;
+}
+
+.personal-panel .item-title {
+	display: block;
+	font-size: 14px;
+	line-height: 15px;
+	height: 15px;
+	text-align: center;
+	margin-top: 3px;
+	text-decoration: none;
+	color: #fff;
 }
