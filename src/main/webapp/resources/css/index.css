@@ -2,12 +2,47 @@ body {
 	background: #f3f3f3;
 }
 
-.qu-lists {
+.qu-classify {
+	background: #fff;
+	overflow: hidden;
+	padding: 0px;
+}
+
+.qu-classify li {
+	float: left;
+	padding: 15px 20px;
+	color: #353535;
+	cursor: pointer;
+	font-size: 18px;
+	border-left: 1px solid #f0f0f0;
+}
+
+.qu-classify li.on {
+	background: #2eb354;
+	color: #fff;
+	cursor: default;
+}
+
+.qu-classify .to-qu {
+	float: right;
+	background: #65c559;
+	color: #fff;
+}
+
+.well {
+	border: none;
+	border-radius: 0;
+	background-color: #fff;
+	box-shadow: none;
+	background-color: #fff;
+}
+
+.qu-list-content {
 	background: #fff;
 }
 
 .qu-list-ul {
-	padding: 0px;
+	padding: 10px;
 }
 
 .qu-list-itme {
@@ -98,6 +133,10 @@ body {
 
 .page-container {
 	text-align: center;
+}
+
+.row-right {
+	padding-left: 0;
 }
 
 .personal-panel {
