@@ -135,8 +135,8 @@ body {
 	text-align: center;
 }
 
-.row-right {
-	padding-left: 0;
+.row-left {
+	padding-right: 0;
 }
 
 .personal-panel {
@@ -232,4 +232,129 @@ body {
 	margin-top: 3px;
 	text-decoration: none;
 	color: #fff;
+}
+
+.rank-list {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.rank-list .title {
+	font-size: 18px;
+}
+
+.rank-list .rank-cl {
+	float: right;
+}
+
+.rank-list .title .devide-line {
+	vertical-align: middle;
+	display: inline-block;
+	width: 1px;
+	height: 12px;
+	background-color: #dadada;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.rank-list a {
+	font-size: 14px;
+}
+
+.rank-list a.accept {
+	font-size: 14px;
+}
+
+.rank-list a.score {
+	font-size: 14px;
+	color: #8b8b8b;
+}
+
+.rank-list ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.rank-list ul li {
+	padding-top: 10px;
+}
+
+.rank-list ul li .icon {
+	background: #65c559;
+	height: 20px;
+	width: 20px;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 20px;
+	margin-right: 10px;
+	color: #fff;
+}
+
+.rank-list ul li a.name {
+	color: #353535;
+	text-decoration: none;
+	width: 100px;
+}
+
+.rank-list ul li a.name:HOVER {
+	color: #2eb354;
+}
+
+.rank-list ul li .li-r {
+	float: right;
+}
+
+.rank-list ul li .li-r .score-val {
+	margin-right: 35px;
+	color: #2eb354;
+}
+
+.rank-list ul li .li-r .u-d {
+	margin-right: 20px;
+}
+
+.notice .panel-body {
+	padding: 0 10px;
+}
+
+.notice ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: #8b8b8b;
+}
+
+.notice li {
+	border-bottom: 1px solid #f0f0f0;
+	padding: 10px 10px;
+}
+
+.notice li:last-child {
+	border: none;
+}
+
+.notice li span {
+	width: 3px;
+	height: 3px;
+	display: block;
+	background: #cfcfcf;
+	position: relative;
+	left: -10px;
+	top: 12px;
+}
+
+.notice li a {
+	color: #666;
+	text-decoration: none;
+}
+
+.notice li a:HOVER {
+	color: #2eb354;
+}
+
+.panel-default>.panel-heading {
+	font-size: 18px;
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #fff;
 }
