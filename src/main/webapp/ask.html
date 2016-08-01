@@ -89,10 +89,40 @@
 			<p class="well-known-saying">创造始于问题，有了问题才会思考，有了思考，才有解决问题的方法，才有找到独立思路的可能。
 				—— 陶行知</p>
 			<div class="ask-box">
-				<div class="ask-explain">
-					<label>问题说明：</label>
-					<textarea></textarea>
-				</div>
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label class="col-sm-2 control-label"><i>*</i>问题说明：</label>
+						<div class="col-sm-10 ask-explain">
+							<textarea class="form-control" placeholder="请在这里描述你的问题"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">答题悬赏：</label>
+						<div class="col-sm-10 ask-score">
+							<div class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button"
+									id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+									aria-expanded="true">
+									<span class="coin-icon"> </span> 0 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+									<li><a href="#"><span class="coin-icon"> </span>10</a></li>
+									<li><a href="#"><span class="coin-icon"> </span>20</a></li>
+									<li><a href="#"><span class="coin-icon"> </span>30</a></li>
+									<li><a href="#"><span class="coin-icon"> </span>50</a></li>
+									<li><a href="#"><span class="coin-icon"> </span>100</a></li>
+								</ul>
+							</div>
+							<span class="current-score">您目前的财富值为6</span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label"></label>
+						<div class="col-sm-10">
+							<button type="button" class="btn btn-success ask-submit">提交问题</button>
+						</div>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>

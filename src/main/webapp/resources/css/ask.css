@@ -18,14 +18,37 @@ body {
 	margin: 0 auto 100px;
 }
 
-.ask-explain{
-	
+.ask-box .control-label {
+	color: #353535;
 }
 
-.ask-explain label{
-	
+.ask-box .control-label i {
+	color: red;
+	margin-right: 6px;
 }
 
-.ask-explain textarea{
-	
+.ask-explain textarea {
+	height: 80px;
+}
+
+.ask-score {
+	line-height: 50px;
+}
+
+.ask-score .dropdown {
+	display: inline;
+	float: left;
+	margin-right: 20px;
+}
+
+.ask-score .current-score {
+	display: block;
+	color: #bbb;
+	overflow: hidden;
+}
+
+.ask-submit {
+	width: 150px;
+	height: 45px;
+	font-size: 18px;
 }
