@@ -1,0 +1,31 @@
+body {
+	background-color: #f3f3f3;
+}
+
+.well-known-saying {
+	text-align: center;
+	padding: 35px 0 25px;
+	color: #b7b7b7;
+	font-size: 15px;
+	line-height: 17px;
+	text-align: center;
+}
+
+.ask-box {
+	padding: 30px 80px 30px 60px;
+	background-color: #fff;
+	border: 1px solid #e7e7e7;
+	margin: 0 auto 100px;
+}
+
+.ask-explain{
+	
+}
+
+.ask-explain label{
+	
+}
+
+.ask-explain textarea{
+	
+}
